@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from './nav.js'
+import Nav from 'src\components\Nav.js'
 
  export function Header() {
     return <header>
@@ -7,3 +7,5 @@ import Nav from './nav.js'
         <Nav />
         </header>
 }
+
+export default Header
