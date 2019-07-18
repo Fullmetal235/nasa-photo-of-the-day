@@ -12,7 +12,7 @@ function Card() {
 
     useEffect(() => {
         axios
-        .get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2019-07-15')
+        .get('https://api.nasa.gov/planetary/apod?api_key=8w1kySYmuxkXuOcL0BX9vw1dtQo7kaQg0hFJTPz4&date=2019-7-17')
         .then(response => {
            console.log(response.data) 
            const imgUrl = response.data.url
