@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
-import Description from './photoDescription.js'
-import Title from './title.js'
+import Description from './PhotoDescription.js'
+import Title from './Title.js'
 
 function Card() {
     const [photo, setPhoto] = useState ("")
