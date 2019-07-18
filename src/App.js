@@ -1,6 +1,7 @@
 import React from "react";
 import Header from './components/Header.js'
 import Card from './components/Card.js'
+import Footer from './components/Footer.js'
 import "./App.css";
 
 function App() {
@@ -11,7 +12,10 @@ function App() {
         app! Have fun 🚀!
       </p>
       <Header />
+      <section>
       <Card />
+      </section>
+      <Footer />
     </div>
   );
 }
