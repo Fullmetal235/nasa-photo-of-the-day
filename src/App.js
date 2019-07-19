@@ -2,6 +2,7 @@ import React from "react";
 import Header from './components/Header.js'
 import Card from './components/Card.js'
 import Footer from './components/Footer.js'
+import subForm from './components/Form.js'
 import "./App.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <section>
       <Card />
       </section>
+      <subForm />
       <Footer />
     </div>
   );

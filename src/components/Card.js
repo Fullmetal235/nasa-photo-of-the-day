@@ -30,7 +30,7 @@ function Card() {
 
     return <div>
             <Title title={title} date ={date}/>
-            <img src={photo} alt = 'space photo'></img>
+            <img src={photo} alt = 'space'></img>
             <Description photoDescription={describe} copyright={copyright}/>
             </div>
 }
